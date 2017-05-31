@@ -3,7 +3,8 @@
 </template>
 
 <script>
-  window.CodeMirror = require('codemirror')
+  var CodeMirror = require('codemirror/lib/codemirror')
+
   require('codemirror/lib/codemirror.css')
   require('codemirror/mode/meta')
 
@@ -30,7 +31,6 @@
       },
     },
     created: function() {
-
       if (this.options.lineNumbers === undefined) {
         this.options.lineNumbers = true
       }
@@ -55,7 +55,7 @@
         var lang = CodeMirror.findModeByMIME(language)
         language = !lang ? lang : lang.mode
 
-      // language object config
+        // language object config
       } else if (typeof language == 'object') {
 
         if (language.name) {
@@ -156,7 +156,7 @@
       }, 0)
     },
     beforeDestroy: function() {
-      
+
       // garbage cleanup
       this.editor.doc.cm.getWrapperElement().remove()
     },

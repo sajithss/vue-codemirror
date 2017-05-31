@@ -1,14 +1,14 @@
 {
-  "name": "vue-codemirror",
+  "name": "vue-codemirror-electron",
   "version": "3.0.7",
-  "description": "Codemirror component for Vue2",
+  "description": "Codemirror component for Vue2 Electron package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-codemirror.git"
+    "url": "https://github.com/sajiths/vue-codemirror-electron.git"
   },
   "keywords": [
     "vue-codemirror",
@@ -17,15 +17,15 @@
     "vue"
   ],
   "author": {
-    "name": "Surmon",
-    "email": "surmon@foxmail.com",
-    "url": "http://surmon.me"
+    "name": "Sajith Sankaranarayanan",
+    "email": "software@appgarage.us",
+    "url": "https://appgarage.us"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/surmon-china/vue-codemirror/issues"
+    "url": "https://github.com/sajiths/vue-codemirror-electron/issues"
   },
-  "homepage": "https://github.com/surmon-china/vue-codemirror#readme",
+  "homepage": "https://github.com/sajiths/vue-codemirror-electron#readme",
   "dependencies": {
     "codemirror": "^5.25.0"
   }
